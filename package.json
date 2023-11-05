@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
-    "start": "node dist/app/index.js",
+    "start": "node dotenv/config dist/app/index.js",
     "build": "tsc --build",
     "clean": "tsc --build --clean",
     "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node -r dotenv/config src/app/index.ts\"",

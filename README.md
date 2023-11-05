@@ -24,6 +24,12 @@ cp env.sample .env
 
 Edit the .env file and populate it with your configuration.
 
+3. Run:
+
+```shell
+npm run dev
+```
+
 ## Features
 
 **Husky Pre-Commit Hooks:** Husky is configured to ensure that all code in the
