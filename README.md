@@ -12,8 +12,8 @@ A simple API for handling deposits, withdrawals, and transfers.
 1. Clone this repository:
 
 ```shell
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/filipessamaral/example_bank_api
+cd example_bank_api
 ```
 
 2. Copy the sample environment file and configure it with your setup:
